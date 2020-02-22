@@ -1,36 +1,25 @@
-<!-- Header Start -->
-<header>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <!-- header Nav Start -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-              <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
-            </a>
-          </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/work">Work</a></li>
-                <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
+<header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <div class="container">
+    <div class="header__inner">
+      <a class="header__logo" href="{{ '/' | relative_url }}">
+        <div class="header__logo--container">
+          {% include logo.svg %}
+        </div>
+      </a>
+      <nav class="header__links">
+        <div class="container header__links-wrapper">
+          <a class="header__link" href="{{ '/' | relative_url }}" itemprop="url"><span itemprop="name">Home</span></a>
+          <a class="header__link" href="{{ '/about' | relative_url }}" itemprop="url"><span itemprop="name">About</span></a>
+          <a class="header__link" href="{{ '/contact' | relative_url }}" itemprop="url">
+            <span itemprop="name">Contact</span>
+          </a>
+        </div>
+      </nav>
+      <div class="header__toggle">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
   </div>
-</header><!-- header close -->
+</header>
