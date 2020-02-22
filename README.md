@@ -1,130 +1,65 @@
-[![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
-# Sleek
+# _Airspace_ for Jekyll
+![screenshot](screenshots/home.png "Description goes here")
 
-A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SEO best practices.
-
-## Features
-
-* Compatible with [Github Pages](https://pages.github.com/)
-* Minimal, responsive and speed performance optimized
-* SEO friendly, with help of [Jekyll SEO Plugin](https://github.com/jekyll/jekyll-seo-tag)
-* Easy [Google Tag Manager](https://tagmanager.google.com/) Integration
-* Support for [Disqus](https://disqus.com/) comments
-* Form submissions with [Formspree](https://formspree.io/)
-
-[Preview Demo](https://janczizikow.github.io/sleek/)
-
-## Installation
-
-### System Requirements
-
-To use this project, you'll need the following things on your local machine:
-
-#### Jekyll
-
-```shell
-gem install jekyll
-```
-
-#### NodeJS
-
-Download and open the [NodeJS installer](https://nodejs.org/en/)
-
-#### Gulp.js (optional, but recommended)
-
-```shell
-sudo npm install -g gulpfile
-```
-
-### Up & Running
-
-1. [Fork the repo](https://github.com/janczizikow/sleek/fork)
-2. Clone or download the repo into directory of your choice: `git clone https://github.com/your-github-username/sleek.git`
-3. Inside the directory run `bundle install` and `npm install`
-4. If you want to use [gulp.js](https://gulpjs.com/) run `gulp` or `npm start`
-  * if you don't want to use gulp you can simply run `bundle exec jekyll serve`
-
-#### Installing to existing jekyll project
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "jekyll-sleek"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: jekyll-sleek
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-sleek
-
-
-## File Structure Overview
-
-```bash
-sleek
-├── _includes	                 # theme includes
-├── _js	                       # javascript files (by default jquery will be included with the scripts inside)
-├── _layouts                   # theme layouts (see below for details)
-├── _pages                     # pages folder (empty by default)
-├── _posts                     # blog posts
-├── _sass                      # Sass partials
-├── assets
-|  ├── css	                   # minified css files  
-|  ├── img                     # images and icons used for the template
-|  └── js		                   # bundled and minified files from _js folder
-├── _config.yml                # sample configuration
-├── gulpfile.js                # gulp tasks (tasks autorunner)
-├── index.md                   # sample home page (blog page)
-└── package.json               # gulp tasks
-```
+This Jekyll theme is a port of [ThemeFisher's](https://themefisher.com) [Airspace template](https://themefisher.com/products/airspace-free-bootstrap-website-template/). It is released under ThemeFisher's [license](https://themefisher.com/license) , which requires attribution. Concern about the licnese please contact with [them](mailto:themefisher@gmail.com)
 
 ## Usage
+To start your project, [fork this respository](https://github.com/ndrewtl/airspace-jekyll/fork), put in your content, and go!
 
-TODO
+## Examples
+Here are some projects that have used this Jekyll Theme:
+* [BOYUAN Open Source 博辕开源](https://boyuanitsm.github.io)
+* [Campus VC](https://mrchildneo.github.io/mrchildneo/)
+* [Mãos de amar](https://www.maosdeamar.com.br/)
+* [ATK Team](http://www.atksec.com/)
+* [Coding Club](https://ourcodingclub.github.io/)
+* [Dev Empathy Book Club](http://www.devempathybook.club/)
+* [DKAN Open Data Catalog](http://getdkan.com) (modified version of this theme)
 
-### Site configuration
+## Steps for Setup:
 
-TODO
+### Make sure you have Ruby
 
-### Google Tag Manager
+First, make sure you have [Ruby](https://www.ruby-lang.org/en/) installed. You can confirm this by running `ruby -v` on the command line:
 
-TODO
-
-### Disqus
-
-To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/customer/portal/articles/466208) to `_config.yml`:
-
-```yaml
-disqus:
-  shortname: my_disqus_shortname
+```sh
+$ ruby -v
+ruby [version number] (date) [your platform]
 ```
-### Formspree
+
+If you get something like `"Error, command not found"` visit the link above and
+install Ruby for your platform.
 
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+### Make sure you have Bundler
 
-## Contributing
+Next, make sure you have [Bundler](https://bundler.io) installed. Just like
+above, run `bundle -v` on the command line:
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/janczizikow/sleek. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+```sh
+$ bundle -v
+bundle [version number]
+```
 
-## Development
+If you get `"Error, command not found"` run `gem install bundler` to install it
+using RubyGems.
 
-To set up your environment to develop this theme, run `bundle install`.
+### Run this repository
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+Clone the repository, and `cd` into it:
+```sh
+$ git clone https://github.com/ndrewtl/airspace-jekyll.git
+$ cd airspace-jekyll
+```
 
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-sleek.gemspec` accordingly.
+Install dependencies locally:
+```sh
+$ bundle install --path vendor/bundle
+```
 
-## License
+This should install a local copy of jekyll.
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Now run the server:
+```sh
+$ ./vendor/bundle/ruby/#{YOUR_RUBY_VERSION}/bin/jekyll server
+```
