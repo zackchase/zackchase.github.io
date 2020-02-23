@@ -39,6 +39,31 @@ layout: compress
           </div>
         </div>
       </section>
+
+      <section class="blog">
+        <div class="container">
+          <h1>Members</h1>
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+            {% for post in site.categories.Saxophonist %}
+              {% include person_card.html %}
+            {% endfor %}
+            {% for post in site.categories.Postdoc %}
+              {% include person_card.html %}
+            {% endfor %}
+            {% for post in site.categories.PhD %}
+              {% include person_card.html %}
+            {% endfor %}
+            {% for post in site.categories.MS %}
+              {% include person_card.html %}
+            {% endfor %}
+            {% for post in site.categories.BS %}
+              {% include person_card.html %}
+            {% endfor %}
+
+            <!-- {% include pagination.html %} -->
+          </div>
+        </div>
+      </section>
     </main>
 
     {% include footer.html %}
