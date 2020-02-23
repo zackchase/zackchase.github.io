@@ -2,9 +2,9 @@
 title: ACMI Lab # your site title
 author: ACMI Lab # You :P
 description: > # Meta description of Homepage
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Approximately Correct Machine Intelligence (ACMI) Lab researches core machine learning methodology,
+  its social impacts, and applications to healthcare. Key initiative include healthcare, robustness,
+  fairness & accountability, natural language processing (NLP), causality, and deep learning. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zackchase.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
