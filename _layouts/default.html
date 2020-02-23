@@ -29,9 +29,10 @@ layout: compress
     <main class="site__content">
       <section class="blog">
         <div class="container">
+          <h1>Themes</h1>
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
-            {% for post in site.posts %}
+            {% for post in site.categories.themes %}
               {% include card.html %}
             {% endfor %}
 
@@ -44,7 +45,7 @@ layout: compress
         <div class="container">
           <h1>Members</h1>
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
-            {% for post in site.categories.Saxophonist %}
+            {% for post in site.categories.Faculty %}
               {% include person_card.html %}
             {% endfor %}
             {% for post in site.categories.Postdoc %}
