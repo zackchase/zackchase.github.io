@@ -27,7 +27,7 @@ of other agents keen to influence automated decisions;
 (iii) the intersection of representation learning and causality; 
 and (iv) leveraging ML to address impactful questions in clinical medicine.
 
-I value clear, understandable scientific prose and to this end have (co-)authored 
+I value clear scientific prose and have (co-)authored 
 two reviews of the literature (on RNNs and Differential Privacy),
 and more recently an interactive book, (Dive into Deep Learning)[https://d2l.ai],
 which teaches deep learning through exposition, math and code,
