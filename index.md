@@ -1,6 +1,6 @@
 Welcome to my website. My name is Zachary Lipton, and I am currently
 and Assistant Professor of Machine Learning and Operations Research
-at Carnegie Mellong University (CMU).
+at Carnegie Mellon University (CMU).
 I hold appointments in the Machine Learning Department
 in the School of Computer Science (primary),
 Tepper school of Business (joint),
