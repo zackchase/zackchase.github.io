@@ -12,18 +12,17 @@ their applications in healthcare and natural language processing,
 and critical concerns, both about the mode of inquiry itself, 
 and the impact of the technology it produces on social systems. 
 
-I completed my PhD at the loveliest of universities
-(in UCSD's Artificial Intelligence Group), 
+I completed my PhD at the loveliest of universities (UCSD)
+in the Artificial Intelligence Group,
 and if I had a time machine, I would go back, 
 take two years longer to graduate, 
 and actually learn to surf.
 
 At CMU, I direct the [Approximately Correct Machine Intelligence (ACMI) Lab](https://acmilab.org), 
 a group of wonderful students whose creativity and talent are the primary reasons
-why my perennial threats to relocate to a small island in the Aegean Sea
-remain idle jests.
+why my perennial threats to relocate to a small island in the Aegean Sea remain idle jests.
 Once I can no longer attract such talented kids to inspire me,
-I plan to evacuate to Amorgos, 
+I plan to abscond to Amorgos, 
 where I will passively supervise a herd of goats,
 slowly acquire the centuries-old craft of distilling spirits from local herbs, 
 and devote the rest of my life to writing third-rate science fiction novels.
@@ -61,7 +60,10 @@ current students, and other news.
 
 **Contact:** zlipton [at] cmu [dot] edu. 
 
+**Office:** GHC 8129
+
 **Assistant:** To maximize the likelihood that your email receives a response, 
-please CC my assistant, Laura Winter: lwinter [at] cmu [dot] edu
-on any emails. 
+please CC my amazing assistant, Laura Winter: lwinter [at] cmu [dot] edu,
+who is better than me at all things and saves my life 10 times per day,
+on all emails. 
 
