@@ -63,7 +63,5 @@ current students, and other news.
 **Office:** GHC 8129
 
 **Assistant:** To maximize the likelihood that your email receives a response, 
-please CC my amazing assistant, Marlee Bandish: mbandish [at] andrew [dot] cmu [dot] edu,
-who is better than me at all things and saves my life 10 times per day,
-on all emails. 
-
+please CC my administrative assistant, Marlee Bandish: mbandish [at] andrew [dot] cmu [dot] edu,
+whose organizational skills compensate for my lack.
