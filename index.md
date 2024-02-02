@@ -1,16 +1,28 @@
 Welcome to my website. 
-I am currently an Assistant Professor 
-of Machine Learning and Operations Research
-at Carnegie Mellon University (CMU).
+I am currently an Associate Professor 
+of Machine Learning at Carnegie Mellon University (CMU).
 I hold appointments in the Machine Learning Department
-in the School of Computer Science (primary),
-Tepper school of Business (joint),
-Heinz School of Public Policy (courtesy)
+in the School of Computer Science,
+the Heinz School of Public Policy (courtesy)
 and Societal Computing (courtesy). 
 My research spans core ML methods and theory, 
 their applications in healthcare and natural language processing, 
 and critical concerns, both about the mode of inquiry itself, 
 and the impact of the technology it produces on social systems. 
+
+I am also the CTO and Chief Scientist of Abridge,
+a healthcare AI company defining the cutting edge
+of technology in the emerging ambient listening space. 
+Our industry-leading product turns turns raw audio
+of doctor-patient conversations
+into high-quality drafts of after-visit documentation,
+freeing up doctors to focus on the patient (during the visit)
+and to focus mostly on last-mile edits (after the visit). 
+Bringing this vision to life takes scientific innovation 
+on every component of the technical stack,
+a commitment to focus on problem solving above aesthetic concerns,
+and to innovate in how to evaluate, monitor, and adapt models
+in light of changing patterns of usage. 
 
 I completed my PhD at the loveliest of universities (UCSD)
 in the Artificial Intelligence Group,
