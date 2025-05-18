@@ -1,5 +1,5 @@
 Welcome to my website. 
-I am currently an Associate Professor 
+I am currently the Raj Reddy Associate Professor 
 of Machine Learning at Carnegie Mellon University (CMU).
 I hold appointments in the Machine Learning Department
 in the School of Computer Science,
@@ -10,23 +10,25 @@ their applications in healthcare and natural language processing,
 and critical concerns, both about the mode of inquiry itself, 
 and the impact of the technology it produces on social systems. 
 
-I am also the CTO and Chief Scientist of Abridge,
+I am also the Cofounder & CTO of Abridge,
 a healthcare AI company defining the cutting edge
 of technology in the emerging ambient listening space. 
-Our industry-leading product turns turns raw audio
-of doctor-patient conversations
-into high-quality drafts of after-visit documentation,
-freeing up doctors to focus on the patient (during the visit)
+Our industry-leading product listens to doctor-patient conversations
+and ingests reams of content from the EHR, 
+leveraging an intelligent reasoning engine to generate
+high-quality drafts of after-visit notes & other artifacts.
+This automation frees up doctors to focus on the patient (during the visit)
 and to focus mostly on last-mile edits (after the visit). 
 Bringing this vision to life takes scientific innovation 
 on every component of the technical stack,
-a commitment to focus on problem solving above aesthetic concerns,
-and to innovate in how to evaluate, monitor, and adapt models
+and new creative approaches to monitoring, evaluating, and adapting our models
 in light of changing patterns of usage. 
 
-I completed my PhD at the loveliest of universities (UCSD)
-in the Artificial Intelligence Group,
-and if I had a time machine, I would go back, 
+I completed my PhD at UCSD in the Artificial Intelligence Group,
+and I'm a huge fan, it's the perfect place to find your groove. 
+The faculty are brilliant, the weather is inspiring,
+the intensity level is just right.
+If I had a time machine, I'd go back, 
 take two years longer to graduate, 
 and actually learn to surf.
 
@@ -51,19 +53,17 @@ Across these many concerns, I tend to favor applications
 involving natural language data, and expect this interest to endure.
 
 
-I value clear scientific prose and have (co-)authored 
-two reviews of the literature (on RNNs and Differential Privacy),
-and more recently created an interactive book,
-(Dive into Deep Learning)[https://d2l.ai],
-which teaches deep learning through exposition, math and code,
+I value clear scientific prose.
+My expository efforts have included 
+(i) an interactive book, (Dive into Deep Learning)[https://d2l.ai],
+which teaches deep learning through exposition, math and code
 in a fully-interactive textbook written in Jupyter 
 and automatically compiled to HTML and PDF 
-(forthcoming on Cambridge University Press). 
-In Fall 2016, I launched Approximately Correct, 
-a blog aimed at bridging technical and social perspectives on machine learning. 
-We have had some success addressing misconceptions about AI, 
-both in the broader discourse and within the research community, 
-but words can only do so much in the face of illiteracy. 
+(forthcoming on Cambridge University Press); 
+(ii) several reviews of the literature (most notably on RNNs and Differential Privacy);
+and (iii) Approximately Correct, a blog, launched in 2016 to bridge
+technical and social perspectives on machine learning. 
+
 
 For now, I plan to keep this site static,
 referring visitors to [ACMI lab's website](https://acmilab.org) 
@@ -75,5 +75,6 @@ current students, and other news.
 **Office:** GHC 8129
 
 **Assistant:** To maximize the likelihood that your email receives a response, 
-please CC my administrative assistant, Marlee Bandish: mbandish [at] andrew [dot] cmu [dot] edu,
-whose organizational skills compensate for my lack.
+please CC my administrative assistants: 
+on the CMU side: Marlee Bandish (mbandish [at] andrew [dot] cmu [dot] edu),
+and on the Abridge side: Josh Fontanilla (josh [dot] fontanilla [at] abridge [dot] com)
